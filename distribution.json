@@ -1,5 +1,21 @@
 {
   "version": "1.0.0",
   "rss": "https://timiswitch60-lang.github.io/nebulaworkspace/distribution.json",
-  "servers": []
+  "servers": [
+    {
+      "id": "vertex",
+      "name": "Vertex",
+      "version": "1.20.1",
+      "type": "forge",
+      "forge": "47.4.10",
+      "address": "ton-ip-ici"
+    }
+  ],
+  "minecraftVersions": [
+    {
+      "id": "1.20.1",
+      "type": "release",
+      "inheritsFrom": "1.20.1"
+    }
+  ]
 }
