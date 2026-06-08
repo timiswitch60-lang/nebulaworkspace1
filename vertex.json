@@ -1,0 +1,11 @@
+{
+  "id": "vertex",
+  "name": "Vertex",
+  "description": "Serveur Vertex Minecraft",
+  "version": "1.0.0",
+  "address": "game4.3forlife.fr:30163",
+  "minecraftVersion": "1.20.1",
+  "mainServer": true,
+  "autoconnect": true,
+  "versionId": "1.20.1-forge-47.4.10"
+}

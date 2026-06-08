@@ -10,7 +10,8 @@
     {
       "id": "vertex",
       "name": "Vertex",
-      "description": "Serveur Vertex Minecraft",
+      "description": "Serveur Vertex Minecraft Forge 1.20.1",
+      "icon": "assets/images/SealCircle.png",
       "version": "1.0.0",
       "address": "game4.3forlife.fr:30163",
       "minecraftVersion": "1.20.1",
@@ -21,7 +22,27 @@
       },
       "mainServer": true,
       "autoconnect": true,
-      "modules": []
+      "javaOptions": {
+        "supported": ">=17",
+        "suggestedMajor": 17,
+        "ram": {
+          "recommended": 4096,
+          "minimum": 3072
+        }
+      },
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.20.1-47.4.10",
+          "name": "Minecraft Forge 1.20.1-47.4.10",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 0,
+            "MD5": "",
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-universal.jar"
+          },
+          "subModules": []
+        }
+      ]
     }
   ]
 }
