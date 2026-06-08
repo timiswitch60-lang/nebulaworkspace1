@@ -8,8 +8,8 @@
       "version": "1.20.1",
       "type": "forge",
       "forge": "47.4.10",
-      "address": "ton-ip-ici",
-      "port": 25565
+      "address": "game4.3forlife.fr",
+      "port": 30163
     }
   ],
   "minecraftVersions": [
