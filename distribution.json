@@ -5,25 +5,14 @@
     "smallImageText": "Vertex",
     "smallImageKey": "seal-circle"
   },
-  "java": {
-    "oracle": "https://www.oracle.com/java/technologies/downloads/#java17"
-  },
   "rss": "",
-  "minecraftVersions": [
-    {
-      "id": "1.20.1",
-      "type": "release",
-      "inheritsFrom": "1.20.1"
-    }
-  ],
   "servers": [
     {
       "id": "vertex",
       "name": "Vertex",
       "description": "Serveur Vertex Minecraft",
       "version": "1.0.0",
-      "address": "game4.3forlife.fr",
-      "port": 30163,
+      "address": "game4.3forlife.fr:30163",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "Vertex",
@@ -31,7 +20,8 @@
         "largeImageKey": "server-icon"
       },
       "mainServer": true,
-      "autoconnect": true
+      "autoconnect": true,
+      "modules": []
     }
   ]
 }
