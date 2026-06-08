@@ -1,22 +1,42 @@
 {
   "version": "1.0.0",
-  "rss": "https://timiswitch60-lang.github.io/nebulaworkspace1/distribution.json",
+  "discord": {
+    "clientId": "",
+    "smallImageText": "Vertex",
+    "smallImageKey": "seal-circle"
+  },
+  "java": {
+    "oracle": "https://www.oracle.com/java/technologies/downloads/#java17"
+  },
+  "rss": "",
   "servers": [
     {
       "id": "vertex",
       "name": "Vertex",
-      "version": "1.20.1",
-      "type": "forge",
-      "forge": "47.4.10",
+      "description": "Serveur Vertex Minecraft",
+      "version": "1.0.0",
       "address": "game4.3forlife.fr",
-      "port": 30163
-    }
-  ],
-  "minecraftVersions": [
-    {
-      "id": "1.20.1",
-      "type": "release",
-      "inheritsFrom": "1.20.1"
+      "port": 30163,
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "Vertex",
+        "largeImageText": "Vertex Server",
+        "largeImageKey": "server-icon"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.20.1-47.4.10",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 0,
+            "MD5": "",
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar"
+          }
+        }
+      ]
     }
   ]
 }
