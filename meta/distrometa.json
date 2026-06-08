@@ -1,6 +1,13 @@
-{
-  "name": "MonLauncher",
-  "version": "1.0.0",
-  "rss": "https://timiswitch60-lang.github.io/nebulaworkspace/distribution.json",
-  "files": {}
+﻿{
+  """": ""file:///C:/Users/naure/Downloads/NebulaWorkspace/schemas/DistroMetaSchema.schema.json"",
+  ""meta"": {
+    ""name"": ""Vertex Distribution"",
+    ""description"": ""Distribution for Vertex Minecraft Server"",
+    ""rss"": """",
+    ""discord"": {
+      ""clientId"": """",
+      ""smallImageText"": """",
+      ""smallImageKey"": """"
+    }
+  }
 }
